@@ -1,19 +1,27 @@
 package main;
 
-import main.functionsMain.FunctionsMain;
-import classProd.Product;
-import errorPackage.EmptyArrayException;
-import errorPackage.EmptyFilterArrayException;
-import errorPackage.ItemNotFoundException;
+import main.functions.FunctionsMain;
+import classes.Product;
+import exception.EmptyArrayException;
+import exception.EmptyFilterArrayException;
+import exception.ItemNotFoundException;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Random;
+import java.util.Objects;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Arrays;
+import java.util.Optional;
+import java.util.Map;
 import java.util.DoubleSummaryStatistics;
 
-import java.util.*;
+
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -385,7 +393,7 @@ public class Main {
 
         case "13": // Сохранение и загрузка в файловой системе
           FunctionsMain.subMenuCase13();
-          System.out.print("Ввидите: ");
+          System.out.print("Введите: ");
           var subMenu = FunctionsMain.addLine();
 
           if (subMenu.equals("1")) { // Сохранение

@@ -1,4 +1,4 @@
-package errorPackage;
+package exception;
 
 public class EmptyArrayException extends Exception {
   public EmptyArrayException(String string) {

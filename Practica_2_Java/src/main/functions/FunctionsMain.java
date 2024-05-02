@@ -1,8 +1,8 @@
-package main.functionsMain;
+package main.functions;
 
-import classProd.Product;
+import classes.Product;
 import main.Main;
-import errorPackage.EmptyLineException;
+import exception.EmptyLineException;
 import org.apache.commons.lang3.math.NumberUtils;
 
 import java.util.ArrayList;

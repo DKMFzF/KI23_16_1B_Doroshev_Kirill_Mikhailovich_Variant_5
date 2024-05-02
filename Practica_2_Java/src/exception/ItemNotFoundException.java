@@ -1,4 +1,4 @@
-package errorPackage;
+package exception;
 
 public class ItemNotFoundException extends Exception {
   public ItemNotFoundException(String string) {

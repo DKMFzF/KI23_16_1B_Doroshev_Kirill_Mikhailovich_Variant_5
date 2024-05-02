@@ -1,4 +1,4 @@
-package errorPackage;
+package exception;
 
 /**
  * Класс для проверки на пустую строку

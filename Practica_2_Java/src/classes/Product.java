@@ -1,7 +1,7 @@
-package classProd;
+package classes;
 
-import errorPackage.EmptyLineException;
-import errorPackage.NegativeNumberException;
+import exception.EmptyLineException;
+import exception.NegativeNumberException;
 
 import java.util.Objects;
 import java.util.Scanner;
@@ -41,7 +41,7 @@ public class Product {
 
   public void info() {
     System.out.printf("""
-            
+
             ------------------------
                     INFO
               1. Артикул: %d
@@ -179,7 +179,7 @@ public class Product {
   @Override
   public String toString() {
     return String.format("""
-            
+
             __Product__
             Артикль: %d
             Цена: %f

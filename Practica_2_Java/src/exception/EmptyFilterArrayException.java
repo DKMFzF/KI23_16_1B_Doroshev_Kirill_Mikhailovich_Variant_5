@@ -1,4 +1,4 @@
-package errorPackage;
+package exception;
 
 public class EmptyFilterArrayException extends Exception {
   public EmptyFilterArrayException(String string) {
